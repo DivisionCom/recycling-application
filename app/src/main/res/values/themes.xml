@@ -24,6 +24,5 @@
         <item name="backgroundTint">#e6fef9e0</item>
         <item name="android:background">@drawable/rounded_button</item>
 
-
     </style>
 </resources>
