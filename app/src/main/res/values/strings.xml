@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Recycler</string>
     <string name="title_activity_menu">MenuActivity</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">Play</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">In developing</string>
+    <string name="title_notifications">Instructions</string>
 </resources>

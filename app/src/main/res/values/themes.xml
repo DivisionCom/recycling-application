@@ -19,9 +19,23 @@
         <item name="android:textSize">20sp</item>
         <item name="fontFamily">sans-serif-medium</item>
         <item name="textAllCaps">false</item>
-        <item name="android:textColor">#586234</item>
+        <item name="android:textColor">#499B50</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDx">6</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowColor">#1A0C6329</item>
         <item name="android:background">@drawable/round_button</item>
-
     </style>
-
+    <style name="TitleText" parent="@style/Widget.AppCompat.TextView">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#499B50</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDx">15</item>
+        <item name="android:shadowDy">30</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowColor">#260C6329</item>
+    </style>
 </resources>
