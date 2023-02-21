@@ -2,6 +2,7 @@ package com.example.recycler
 
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -30,5 +31,9 @@ private lateinit var binding: ActivityMenuBinding
            R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications))
         // setupActionBarWithNavController(navController, appBarConfiguration)
          navView.setupWithNavController(navController)
+
+//        change imageView resource
+//        val mainObject = findViewById<ImageView>(R.id.image_object)
+//        mainObject.setImageResource(R.drawable.heart)
     }
 }

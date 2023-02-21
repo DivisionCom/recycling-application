@@ -122,7 +122,7 @@
         android:id="@+id/image_left_arrow"
         android:layout_width="65dp"
         android:layout_height="90dp"
-        android:src="@drawable/left_arrow"
+        android:src="@drawable/left_arrow2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
@@ -134,12 +134,24 @@
         android:id="@+id/image_right_arrow"
         android:layout_width="65dp"
         android:layout_height="90dp"
-        android:src="@drawable/right_arrow"
+        android:src="@drawable/right_arrow2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.921"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.294" />
+
+    <ImageView
+        android:id="@+id/image_object"
+        android:layout_width="80dp"
+        android:layout_height="91dp"
+        android:src="@android:drawable/ic_media_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
