@@ -4,4 +4,7 @@
     <string name="title_home">Play</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Instructions</string>
+    <string name="divider">|</string>
+    <string name="default_score">0.0</string>
+    <string name="text_score">CONTAINER SCORE</string>
 </resources>
