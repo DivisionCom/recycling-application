@@ -157,7 +157,10 @@ private lateinit var binding: ActivityMenuBinding
             3 -> heart.setImageResource(R.drawable.heart_full)
             2 -> heart.setImageResource(R.drawable.heart_1mis)
             1 -> heart.setImageResource(R.drawable.heart_2mis)
-            0 -> heart.setImageResource(R.drawable.heart_3mis)
+            0 -> {
+                heart.setImageResource(R.drawable.heart_3mis)
+                builder.show()
+            }
             else -> {
                 builder.show()
             }
