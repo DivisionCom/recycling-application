@@ -145,6 +145,8 @@ private lateinit var binding: ActivityMenuBinding
         builder.setPositiveButton("Начать заново") {
                 dialog, which ->
             Toast.makeText(this, "Начать заново", Toast.LENGTH_SHORT).show()
+            finish()
+            startActivity(intent)
         }
         builder.setNegativeButton("Обучение") {
                 dialog, which ->
